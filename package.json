@@ -1,0 +1,38 @@
+{
+  "name": "self-flowdock-bot",
+  "version": "1.0.0",
+  "description": "Self bot for flowdock!",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArcticZeroo/self-flowdock-bot.git"
+  },
+  "keywords": [
+    "flowdock",
+    "self",
+    "bot",
+    "self"
+  ],
+  "author": "Frozor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArcticZeroo/self-flowdock-bot/issues"
+  },
+  "homepage": "https://github.com/ArcticZeroo/self-flowdock-bot#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "flowdock-ex": "^1.0.9",
+    "frozor-commands": "^5.0.5",
+    "frozor-logger": "^3.0.13",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
